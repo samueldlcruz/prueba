@@ -1,0 +1,535 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #141a1f;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h1 {
+    font-family: 'Mukta', sans-serif;
+}
+
+/*Comienzo de css pagina contactanos*/
+.logoMenu {
+    width: 40px;
+
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0.8rem;
+    margin: 2.5rem;
+    background-color: #00000015;
+    border-radius: 10px;
+}
+
+.menu li:hover {
+    transition: 0.9s;
+    background: linear-gradient(90deg, rgba(35, 37, 36, 1) 0%, rgba(20, 26, 31, 0.6983758700696056) 0%, rgba(35, 70, 98, 1) 67%, rgba(20, 26, 31, 0.47795823665893267) 100%);
+    box-shadow: 0 7px 10px #235a8873;
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+/*El menu no se quedaria arriba al bajar por la pagina*/
+nav {
+    position: sticky;
+    top: 0px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.logo {
+    text-align: center;
+    margin: 0rem;
+    background-color: rgba(4, 22, 22, 0.37);
+    position: sticky;
+    top: 0%;
+}
+
+ul {
+    text-align: center;
+}
+
+section .formulario {
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: #00ff9d49;
+    border-style: solid;
+    background-color: rgba(9, 49, 49, 0.596);
+    width: 100%;
+    max-width: 350px;
+    flex-direction: column;
+    box-shadow: 0 10px 20px #014f8ba9;
+    border-radius: 10px;
+}
+
+.form:hover {
+    background-color: rgba(9, 71, 71, 0.712);
+    box-shadow: 0 15px 25px #235a88;
+    transition: 1s;
+}
+
+input {
+    margin: 0.5rem;
+    background-color: rgba(9, 71, 71, 0.712);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px #33485846;
+}
+
+textarea {
+    margin: 1rem;
+    border-radius: 7px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0 5px 25px #235a88;
+}
+
+.boton {
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    max-width: 80px;
+    padding: 2px;
+}
+
+.terminos {
+    font-size: small;
+}
+
+.TyC {
+    color: #3088cf;
+}
+
+.boton {
+    background-color: #3088cf;
+    color: white;
+    width: 90px;
+}
+
+input {
+    border-color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.descripcion {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 100%;
+    max-width: 540px;
+    font-size: small;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials img:hover {
+    box-shadow: 0px 2px 10px #096939;
+    border-radius: 2rem;
+    transition: 0.8s;
+}
+
+.fbIcon {
+    width: 40px;
+    padding: 0.2rem;
+    margin: 1.1rem;
+
+
+}
+
+.wpIcon {
+    width: 40px;
+    padding: 0.2rem;
+    margin: 1.1rem;
+}
+
+.instaIcon {
+    width: 40px;
+    padding: 0.2rem;
+    margin: 1.1rem;
+}
+
+footer {
+    text-align: center;
+}
+
+.listaFooter li {
+    display: inline-block;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.192);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+
+}
+
+.logoAbajo {
+    width: 20px;
+    filter: blur(3px);
+    margin: 7px;
+}
+
+.logoAbajo:hover {
+    filter: blur(0px);
+}
+
+.pie {
+    background-color: #050e1459;
+    bottom: 20px;
+    bottom: 0px;
+    width: 100%;
+    height: 125px;
+}
+
+.copy {
+    margin: 1rem;
+    font-size: small;
+}
+
+/*final de css pagina contactanos*/
+/*Comienzo css Index*/
+.logoIndex {
+    text-align: center;
+}
+
+.menuIndex li {
+    display: inline-block;
+
+}
+
+.imgIndex1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.imgIndex1 img {
+    margin: 1px;
+    width: 260px;
+    height: 150px;
+}
+
+.descripNft {
+    border: #71daa5;
+    color: #6da6d4;
+}
+
+.imgIndex2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.imgIndex2 img {
+    margin: 1px;
+    width: 260px;
+    height: 150px;
+}
+
+.card {
+    width: 240px;
+    margin: 10px;
+    border-radius: 14px;
+    overflow: hidden;
+    background: rgb(35, 37, 36);
+    background: linear-gradient(90deg, rgba(35, 37, 36, 1) 0%, rgba(37, 7, 54, 1) 0%, rgba(94, 35, 194, 1) 50%, rgba(38, 8, 57, 1) 100%);
+    box-shadow: 0px 3px 15px #235a88;
+    cursor: default;
+
+
+}
+
+.card img {
+
+    width: 250px;
+}
+
+.card:hover {
+    box-shadow: 0px 3px 20px #3088cf;
+    transform: translateY(-3%);
+    transition: all 0.7s ease;
+}
+
+.card .contenido {
+    width: 190px;
+    height: 130px;
+    padding: 7px;
+
+}
+
+.card h3 {
+    text-align: center;
+    font-weight: 550;
+
+    padding: 5px;
+}
+
+.card .contenido p {
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.card .contenido a {
+    text-align: center;
+    padding: 4px;
+    border: 1px solid #6da6d4;
+    border-radius: 6px;
+
+}
+
+.card .contenido a:hover {
+    transition: all 0.4s ease;
+    background-color: #6da6d4;
+    box-shadow: 0 1px 9px white;
+}
+
+/*Fin de css Index*/
+/*Comienzo css Categorias*/
+
+section .titulo {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.listaCategoria li {
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    background-color: #9b09b8;
+    border: 2px #fdfdfdaf solid;
+    box-shadow: 0 3px 16px #684170;
+    border-radius: 19px;
+}
+
+.listaCategoria li:hover {
+    box-shadow: 0 5px 16px #c61ae9;
+    transform: translateY(-9%);
+    transition: all 0.9s ease;
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.categorias .card img {
+    text-align: center;
+}
+
+.categoriaNft {
+    text-align: center;
+    background-color: #132b3f94;
+    width: 120px;
+    margin: 0px auto;
+    padding: 2px;
+    flex-direction: column;
+    border: solid #ecf0ee5b;
+    box-shadow: 0 3px 7px #3088cf;
+    font-weight: 500;
+    font-size: medium;
+    border-radius: 7px;
+}
+
+.categorias .card img {
+    width: 250px;
+    height: 180px;
+}
+
+/*Final css categorias*/
+/*Comienzo css Medios de pago*/
+
+.mdpTitulo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mediosDePago img {
+    width: 100px;
+}
+
+.mediosDePago {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 30px;
+    padding: 10px;
+    cursor: default;
+}
+
+.mediosDePago .moneda {
+    width: 160px;
+    height: 230px;
+}
+
+.moneda {
+    text-align: center;
+    margin: 50px;
+    border-radius: 14px;
+    background: rgb(35, 37, 36);
+    background: linear-gradient(90deg, rgba(35, 37, 36, 1) 0%, rgba(122, 38, 140, 0.9467592592592593) 0%, rgba(42, 16, 103, 1) 51%, rgba(43, 1, 116, 0.9606481481481481) 100%);
+    box-shadow: 1px 9px 17px #684170;
+}
+
+.moneda img {
+    margin-top: 5px;
+}
+
+.moneda p {
+    width: 160px;
+    font-size: medium;
+    font-weight: 100;
+    margin-top: 15px;
+
+}
+
+.moneda:hover {
+    transform: translateY(-3%);
+    transition: all 0.9s ease;
+}
+
+.videoTutorial {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.videoTutorial iframe {
+    width: 650px;
+    height: 400px;
+}
+
+.videoTutorial h3 {
+    margin: 30px;
+}
+/*Fin css categorias*/
+/*Comienzo css vender*/
+
+.formVender{
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: #00ff9d49;
+    border-style: solid;
+    background-color: rgba(9, 49, 49, 0.596);
+    width: 100%;
+    max-width: 450px;
+    flex-direction: column;
+    box-shadow: 0 10px 20px #014f8ba9;
+    border-radius: 10px;
+}
+.tituloNFT{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+}
+.tituloNFT img{
+    width: 220px;
+    border: 3px solid #096939;
+    box-shadow: 0 2px 10px violet;
+}
+.tituloNFT input{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.281);
+    border: 3px solid #684170a8;
+}
+.descripcionNft{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+}
+.tipoDeRed{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.precioDeNft{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+}
+.precioDeNft .precioUsd{
+    background-color: #141a1f;
+    border: 3px solid #684170a8;
+}
+.tycVender{
+    margin: 10px;
+}
+.tycVender div{
+    margin: 10px;
+}
+.vistaPrevia{
+    text-align: center;
+    
+}
+.vistaPrevia .card{
+    left: 25%;
+}
+.vistaPrevia .card{
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: #00ff9d49;
+    border-style: solid;
+    background-color: rgba(9, 49, 49, 0.596);
+    width: 100%;
+    max-width: 300px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.vistaPrevia .card .botonNft{
+    margin-top: 1rem;
+}
